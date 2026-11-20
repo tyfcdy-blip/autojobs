@@ -1,0 +1,172 @@
+[
+  {
+    "requested_repo": "fastapi/fastapi",
+    "api_error": "HTTPError: HTTP Error 403: rate limit exceeded",
+    "api_url": "https://api.github.com/repos/fastapi/fastapi",
+    "api_retry_note": "匿名 API 限流；以下字段改由官方仓库 HTML 提取，未取到的字段保持 null。",
+    "url": "https://github.com/fastapi/fastapi",
+    "source_kind": "official_github_repository_html",
+    "retrieved_at_utc": "2026-11-19T09:39:07.563863+00:00",
+    "stars": 104890,
+    "stars_source_field": "stargazerCount",
+    "html_sha256": "8835364d88d0af50a86490975c8fed700002e8fcd3aba2522249238aea8b7195",
+    "license_evidence": [
+      "\"license\":{\"spdxId\":\"MIT\",\"name\":\"MIT License\"}"
+    ],
+    "pushed_at": null,
+    "archived": null
+  },
+  {
+    "requested_repo": "vuejs/core",
+    "api_error": "HTTPError: HTTP Error 403: rate limit exceeded",
+    "api_url": "https://api.github.com/repos/vuejs/core",
+    "api_retry_note": "匿名 API 限流；以下字段改由官方仓库 HTML 提取，未取到的字段保持 null。",
+    "url": "https://github.com/vuejs/core",
+    "source_kind": "official_github_repository_html",
+    "retrieved_at_utc": "2026-11-19T09:39:07.396969+00:00",
+    "stars": 55034,
+    "stars_source_field": "stargazerCount",
+    "html_sha256": "e95928f6bfde0cd8fbac63ae40dbe7e9109f75ee5c567a5070d40ec6a0fecc04",
+    "license_evidence": [
+      "\"license\":{\"spdxId\":\"MIT\",\"name\":\"MIT License\"}"
+    ],
+    "pushed_at": null,
+    "archived": null
+  },
+  {
+    "requested_repo": "element-plus/element-plus",
+    "api_error": "HTTPError: HTTP Error 403: rate limit exceeded",
+    "api_url": "https://api.github.com/repos/element-plus/element-plus",
+    "api_retry_note": "匿名 API 限流；以下字段改由官方仓库 HTML 提取，未取到的字段保持 null。",
+    "url": "https://github.com/element-plus/element-plus",
+    "source_kind": "official_github_repository_html",
+    "retrieved_at_utc": "2026-11-19T09:39:07.444883+00:00",
+    "stars": 27861,
+    "stars_source_field": "stargazerCount",
+    "html_sha256": "8efe558879fcb3dc824dc5537cea8fc2c82eaae6928b770b7d6f287877db7fd5",
+    "license_evidence": [
+      "\"license\":{\"spdxId\":\"MIT\",\"name\":\"MIT License\"}"
+    ],
+    "pushed_at": null,
+    "archived": null
+  },
+  {
+    "requested_repo": "vbenjs/vue-vben-admin",
+    "api_error": "HTTPError: HTTP Error 403: rate limit exceeded",
+    "api_url": "https://api.github.com/repos/vbenjs/vue-vben-admin",
+    "api_retry_note": "匿名 API 限流；以下字段改由官方仓库 HTML 提取，未取到的字段保持 null。",
+    "url": "https://github.com/vbenjs/vue-vben-admin",
+    "source_kind": "official_github_repository_html",
+    "retrieved_at_utc": "2026-11-19T09:39:07.110075+00:00",
+    "stars": 33830,
+    "stars_source_field": "stargazerCount",
+    "html_sha256": "76ccdb365f5c0b011d6770b96b3205bcd0e9981955b4131bf8d1ec2f7d7d0689",
+    "license_evidence": [
+      "\"license\":{\"spdxId\":\"MIT\",\"name\":\"MIT License\"}"
+    ],
+    "pushed_at": null,
+    "archived": null
+  },
+  {
+    "requested_repo": "sqlalchemy/sqlalchemy",
+    "api_error": "HTTPError: HTTP Error 403: rate limit exceeded",
+    "api_url": "https://api.github.com/repos/sqlalchemy/sqlalchemy",
+    "api_retry_note": "匿名 API 限流；以下字段改由官方仓库 HTML 提取，未取到的字段保持 null。",
+    "url": "https://github.com/sqlalchemy/sqlalchemy",
+    "source_kind": "official_github_repository_html",
+    "retrieved_at_utc": "2026-11-19T09:39:09.104283+00:00",
+    "stars": 12295,
+    "stars_source_field": "stargazerCount",
+    "html_sha256": "eacaa865ba85df3b4a854e6e8dd7b6ced1806870764fa50e603eb816ccc88583",
+    "license_evidence": [
+      "\"license\":{\"spdxId\":\"MIT\",\"name\":\"MIT License\"}"
+    ],
+    "pushed_at": null,
+    "archived": null
+  },
+  {
+    "requested_repo": "pydantic/pydantic",
+    "api_error": "HTTPError: HTTP Error 403: rate limit exceeded",
+    "api_url": "https://api.github.com/repos/pydantic/pydantic",
+    "api_retry_note": "匿名 API 限流；以下字段改由官方仓库 HTML 提取，未取到的字段保持 null。",
+    "url": "https://github.com/pydantic/pydantic",
+    "source_kind": "official_github_repository_html",
+    "retrieved_at_utc": "2026-11-19T09:39:09.245076+00:00",
+    "stars": 29564,
+    "stars_source_field": "stargazerCount",
+    "html_sha256": "d312e3ba2be0c2f125f4a848e8da5958dacf8d74b695d0d76379dda521543e28",
+    "license_evidence": [
+      "\"license\":{\"spdxId\":\"MIT\",\"name\":\"MIT License\"}"
+    ],
+    "pushed_at": null,
+    "archived": null
+  },
+  {
+    "requested_repo": "agronholm/apscheduler",
+    "api_error": "HTTPError: HTTP Error 403: rate limit exceeded",
+    "api_url": "https://api.github.com/repos/agronholm/apscheduler",
+    "api_retry_note": "匿名 API 限流；以下字段改由官方仓库 HTML 提取，未取到的字段保持 null。",
+    "url": "https://github.com/agronholm/apscheduler",
+    "source_kind": "official_github_repository_html",
+    "retrieved_at_utc": "2026-11-19T09:39:09.115713+00:00",
+    "stars": 7715,
+    "stars_source_field": "stargazerCount",
+    "html_sha256": "b3e0513e64106098b54da0d7c80991a336fb086e5b766a47e060b3b882e286e3",
+    "license_evidence": [
+      "\"license\":{\"spdxId\":\"MIT\",\"name\":\"MIT License\"}"
+    ],
+    "pushed_at": null,
+    "archived": null
+  },
+  {
+    "requested_repo": "celery/celery",
+    "api_error": "HTTPError: HTTP Error 403: rate limit exceeded",
+    "api_url": "https://api.github.com/repos/celery/celery",
+    "api_retry_note": "匿名 API 限流；以下字段改由官方仓库 HTML 提取，未取到的字段保持 null。",
+    "url": "https://github.com/celery/celery",
+    "source_kind": "official_github_repository_html",
+    "retrieved_at_utc": "2026-11-19T09:39:09.714768+00:00",
+    "stars": 29228,
+    "stars_source_field": "stargazerCount",
+    "html_sha256": "2d064879cff670e8435ada72cc65af740e4943da5f407777cf8bf653f1b7c415",
+    "license_evidence": [
+      "\"license\":{\"spdxId\":\"NOASSERTION\",\"name\":\"Other\"}"
+    ],
+    "pushed_at": null,
+    "archived": null
+  },
+  {
+    "requested_repo": "django/django",
+    "api_error": "HTTPError: HTTP Error 403: rate limit exceeded",
+    "api_url": "https://api.github.com/repos/django/django",
+    "api_retry_note": "匿名 API 限流；以下字段改由官方仓库 HTML 提取，未取到的字段保持 null。",
+    "url": "https://github.com/django/django",
+    "source_kind": "official_github_repository_html",
+    "retrieved_at_utc": "2026-11-19T09:39:10.744253+00:00",
+    "stars": 91815,
+    "stars_source_field": "stargazerCount",
+    "html_sha256": "11652282441f21c0049817443a51d99d60a5628daa1d61fbcb8d84873dee6496",
+    "license_evidence": [
+      "\"license\":{\"spdxId\":\"BSD-3-Clause\",\"name\":\"BSD 3-Clause \\\"New\\\" or \\\"Revised\\\" License\"}"
+    ],
+    "pushed_at": null,
+    "archived": null
+  },
+  {
+    "requested_repo": "caddyserver/caddy",
+    "api_error": "HTTPError: HTTP Error 403: rate limit exceeded",
+    "api_url": "https://api.github.com/repos/caddyserver/caddy",
+    "api_retry_note": "匿名 API 限流；以下字段改由官方仓库 HTML 提取，未取到的字段保持 null。",
+    "url": "https://github.com/caddyserver/caddy",
+    "source_kind": "official_github_repository_html",
+    "retrieved_at_utc": "2026-11-19T09:39:11.031739+00:00",
+    "stars": 79250,
+    "stars_source_field": "stargazerCount",
+    "html_sha256": "707e315d36029c0ca19574bab0c3c08d9a0266476198394b694f545e45f0e84c",
+    "license_evidence": [
+      "\"license\":{\"spdxId\":\"Apache-2.0\",\"name\":\"Apache License 2.0\"}"
+    ],
+    "pushed_at": null,
+    "archived": null
+  }
+]

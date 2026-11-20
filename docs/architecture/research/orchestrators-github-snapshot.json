@@ -1,0 +1,236 @@
+{
+  "research_label_date": "2026-11-19",
+  "user_timezone": "Asia/Shanghai",
+  "description": "Actual live GitHub API metadata; date label is not a claim that metadata was frozen at that date. Repository metadata does not by itself prove the license of every file or enterprise feature.",
+  "repositories": [
+    {
+      "requested_repository": "PrefectHQ/prefect",
+      "api_url": "https://api.github.com/repos/PrefectHQ/prefect",
+      "fetched_at_utc": "2026-11-19T09:36:48.483716+00:00",
+      "status": 403,
+      "error": "rate limit exceeded"
+    },
+    {
+      "requested_repository": "apache/airflow",
+      "api_url": "https://api.github.com/repos/apache/airflow",
+      "fetched_at_utc": "2026-11-19T09:36:48.484782+00:00",
+      "status": 403,
+      "error": "rate limit exceeded"
+    },
+    {
+      "requested_repository": "windmill-labs/windmill",
+      "api_url": "https://api.github.com/repos/windmill-labs/windmill",
+      "fetched_at_utc": "2026-11-19T09:36:48.484782+00:00",
+      "status": 403,
+      "error": "rate limit exceeded"
+    },
+    {
+      "requested_repository": "kestra-io/kestra",
+      "api_url": "https://api.github.com/repos/kestra-io/kestra",
+      "fetched_at_utc": "2026-11-19T09:36:48.563873+00:00",
+      "status": 403,
+      "error": "rate limit exceeded"
+    },
+    {
+      "requested_repository": "n8n-io/n8n",
+      "api_url": "https://api.github.com/repos/n8n-io/n8n",
+      "fetched_at_utc": "2026-11-19T09:36:49.307434+00:00",
+      "status": 403,
+      "error": "rate limit exceeded"
+    },
+    {
+      "requested_repository": "dagster-io/dagster",
+      "api_url": "https://api.github.com/repos/dagster-io/dagster",
+      "fetched_at_utc": "2026-11-19T09:36:49.324517+00:00",
+      "status": 403,
+      "error": "rate limit exceeded"
+    },
+    {
+      "requested_repository": "xxl-job/xxl-job",
+      "api_url": "https://api.github.com/repos/xxl-job/xxl-job",
+      "fetched_at_utc": "2026-11-19T09:36:49.395140+00:00",
+      "status": 403,
+      "error": "rate limit exceeded"
+    },
+    {
+      "requested_repository": "xuxueli/xxl-job",
+      "api_url": "https://api.github.com/repos/xuxueli/xxl-job",
+      "fetched_at_utc": "2026-11-19T09:36:50.098099+00:00",
+      "status": 403,
+      "error": "rate limit exceeded"
+    }
+  ],
+  "html_fallback": [
+    {
+      "requested_repository": "windmill-labs/windmill",
+      "url": "https://github.com/windmill-labs/windmill",
+      "resolved_url": "https://github.com/windmill-labs/windmill",
+      "fetched_at_utc": "2026-11-19T09:38:46.977874+00:00",
+      "http_date": "Thu, 19 Nov 2026 09:38:48 GMT",
+      "status": 200,
+      "stargazers_count": 18640,
+      "star_source_pattern": "\"stargazerCount\":(\\d+)",
+      "archived": null,
+      "pushed_at": null,
+      "license_spdx": null,
+      "notes": "HTML fallback; API-only fields unverified"
+    },
+    {
+      "requested_repository": "dagster-io/dagster",
+      "url": "https://github.com/dagster-io/dagster",
+      "resolved_url": "https://github.com/dagster-io/dagster",
+      "fetched_at_utc": "2026-11-19T09:38:46.978916+00:00",
+      "http_date": "Thu, 19 Nov 2026 09:38:48 GMT",
+      "status": 200,
+      "stargazers_count": 16444,
+      "star_source_pattern": "\"stargazerCount\":(\\d+)",
+      "archived": null,
+      "pushed_at": null,
+      "license_spdx": null,
+      "notes": "HTML fallback; API-only fields unverified"
+    },
+    {
+      "requested_repository": "xxl-job/xxl-job",
+      "url": "https://github.com/xxl-job/xxl-job",
+      "resolved_url": "https://github.com/xxl-job/xxl-job-admin",
+      "fetched_at_utc": "2026-11-19T09:38:46.979915+00:00",
+      "http_date": "Thu, 19 Nov 2026 09:38:49 GMT",
+      "status": 200,
+      "stargazers_count": 20,
+      "star_source_pattern": "\"stargazerCount\":(\\d+)",
+      "archived": null,
+      "pushed_at": null,
+      "license_spdx": null,
+      "notes": "HTML fallback; API-only fields unverified"
+    },
+    {
+      "requested_repository": "xuxueli/xxl-job",
+      "url": "https://github.com/xuxueli/xxl-job",
+      "resolved_url": "https://github.com/xuxueli/xxl-job",
+      "fetched_at_utc": "2026-11-19T09:38:46.979915+00:00",
+      "http_date": "Thu, 19 Nov 2026 09:38:48 GMT",
+      "status": 200,
+      "stargazers_count": 30673,
+      "star_source_pattern": "\"stargazerCount\":(\\d+)",
+      "archived": null,
+      "pushed_at": null,
+      "license_spdx": null,
+      "notes": "HTML fallback; API-only fields unverified"
+    }
+  ],
+  "web_api_observed_at_utc": "2026-11-19T09:39:40.481973+00:00",
+  "web_api_repositories": [
+    {
+      "api_url": "https://api.github.com/repos/apache/airflow",
+      "full_name": "apache/airflow",
+      "html_url": "https://github.com/apache/airflow",
+      "stargazers_count": 47536,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2026-11-19T04:09:17Z",
+      "updated_at": "2026-11-19T02:09:45Z",
+      "default_branch": "main",
+      "source_transport": "web.open of GitHub API; tool cache date today or yesterday, raw HTTP response timestamp unavailable"
+    },
+    {
+      "api_url": "https://api.github.com/repos/kestra-io/kestra",
+      "full_name": "kestra-io/kestra",
+      "html_url": "https://github.com/kestra-io/kestra",
+      "stargazers_count": 30265,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2026-11-18T03:33:53Z",
+      "updated_at": "2026-11-18T03:08:36Z",
+      "default_branch": "develop",
+      "source_transport": "web.open of GitHub API; tool cache date today or yesterday, raw HTTP response timestamp unavailable"
+    },
+    {
+      "api_url": "https://api.github.com/repos/n8n-io/n8n",
+      "full_name": "n8n-io/n8n",
+      "html_url": "https://github.com/n8n-io/n8n",
+      "stargazers_count": 211184,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2026-11-19T04:52:55Z",
+      "updated_at": "2026-11-19T04:55:57Z",
+      "default_branch": "master",
+      "source_transport": "web.open of GitHub API; tool cache date today or yesterday, raw HTTP response timestamp unavailable"
+    },
+    {
+      "api_url": "https://api.github.com/repos/PrefectHQ/prefect",
+      "full_name": "PrefectHQ/prefect",
+      "html_url": "https://github.com/PrefectHQ/prefect",
+      "stargazers_count": 24185,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2026-11-19T08:11:53Z",
+      "updated_at": "2026-11-19T09:13:26Z",
+      "default_branch": "main",
+      "source_transport": "web.open of GitHub API; tool cache date today or yesterday, raw HTTP response timestamp unavailable"
+    }
+  ],
+  "license_evidence": [
+    {
+      "repository": "windmill-labs/windmill",
+      "url": "https://raw.githubusercontent.com/windmill-labs/windmill/main/LICENSE",
+      "observed_date": "2026-11-19",
+      "classification": "Mixed: default source AGPLv3, clients/OpenAPI Apache-2.0, enterprise proprietary; distributed Community images/binaries also include non-open-source parts.",
+      "api_spdx_id": null
+    },
+    {
+      "repository": "n8n-io/n8n",
+      "url": "https://raw.githubusercontent.com/n8n-io/n8n/master/LICENSE.md",
+      "observed_date": "2026-11-19",
+      "classification": "Sustainable Use License for ordinary master content; enterprise source separately licensed; source-available.",
+      "api_spdx_id": "NOASSERTION"
+    },
+    {
+      "repository": "dagster-io/dagster",
+      "url": "https://raw.githubusercontent.com/dagster-io/dagster/master/LICENSE",
+      "observed_date": "2026-11-19",
+      "classification": "Apache License 2.0 text; API SPDX unavailable.",
+      "api_spdx_id": null
+    },
+    {
+      "repository": "xuxueli/xxl-job",
+      "url": "https://raw.githubusercontent.com/xuxueli/xxl-job/master/LICENSE",
+      "observed_date": "2026-11-19",
+      "classification": "GNU General Public License version 3 text; API SPDX unavailable.",
+      "api_spdx_id": null
+    }
+  ],
+  "verification_limits": [
+    "Direct GitHub REST calls were rate-limited.",
+    "web.open may return cached API content; HTTP response time is not exposed by that tool.",
+    "archived/pushed_at/API SPDX not retrieved for windmill-labs/windmill, dagster-io/dagster, xuxueli/xxl-job.",
+    "No deployment, package installation or platform runtime/Windows desktop test performed."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "format_version": 1,
+  "project": {
+    "name": "autojobs",
+    "description": "自动化脚本控制中台；当前已实现 M0 Windows 本机执行端"
+  },
+  "stack": {
+    "backend": null,
+    "frontend": "Vue 3 + TypeScript + Vite（apps/agent/desktop-ui 本机窗口）",
+    "jobs": "Python 3.12 + SQLite + pywin32 + pywebview（apps/agent 本地执行链路）"
+  },
+  "verification": {
+    "build": [
+      "uv build --project apps/agent",
+      "pnpm --dir apps/agent/desktop-ui build"
+    ],
+    "lint": [
+      "uv run --project apps/agent --frozen --extra desktop ruff check apps/agent/src apps/agent/tests apps/agent/examples"
+    ],
+    "typecheck": [
+      "uv run --project apps/agent --frozen --extra desktop mypy --config-file apps/agent/pyproject.toml apps/agent/src/autojobs_agent",
+      "pnpm --dir apps/agent/desktop-ui typecheck"
+    ],
+    "unit": [
+      "uv run --project apps/agent --frozen --extra desktop pytest apps/agent/tests -m \"not integration and not windows\" -q",
+      "pnpm --dir apps/agent/desktop-ui test"
+    ],
+    "integration": [
+      "uv run --project apps/agent --frozen --extra desktop pytest apps/agent/tests -m \"integration or windows\" -q"
+    ],
+    "e2e": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "version": "0.1",
+  "date": "2026-11-19",
+  "generation_method": "built-in image_gen",
+  "is_interactive": false,
+  "data": "illustrative only",
+  "selected_images": [
+    {
+      "file": "01-overview-v2.png",
+      "width": 1585,
+      "height": 992,
+      "bytes": 1638265,
+      "sha256": "ab96ea3f24b12ae7c7d00e81a2cb271d29dd15cfd9edcffa65c80cce83aac631"
+    },
+    {
+      "file": "02-tasks.png",
+      "width": 1586,
+      "height": 992,
+      "bytes": 1340794,
+      "sha256": "0e6ad97def8ff6d5877dcd59dac18cafca20c24fd172c3a2132fa2500aac4e47"
+    },
+    {
+      "file": "03-computers.png",
+      "width": 1586,
+      "height": 992,
+      "bytes": 1441186,
+      "sha256": "ffbdde8e235b82a32ec04f39323e5b010f993189668647dc445d8a12ff3ec90b"
+    },
+    {
+      "file": "04-run-detail.png",
+      "width": 1586,
+      "height": 992,
+      "bytes": 1455143,
+      "sha256": "b59e0e06ec41804b0dd950c4b5973ada44a294640ca7b65759c7b71923162145"
+    },
+    {
+      "file": "05-local-runner.png",
+      "width": 1586,
+      "height": 992,
+      "bytes": 1549525,
+      "sha256": "05e10456352f0a6aadffb9158281ca605c36fdfd834601d2cb9819e6eabb5fe0"
+    }
+  ]
+}

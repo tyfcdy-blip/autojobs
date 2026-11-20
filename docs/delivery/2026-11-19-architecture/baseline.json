@@ -1,0 +1,34 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "f701046aba833f5f4be8656d1cdff9c158c00acb9500b312f58f1afe39c7f950"
+  },
+  {
+    "path": "docs/README.md",
+    "sha256": "681a95051c6ec96632371d1db0d0978319edbeedeb4ddf6e8870d69d31af605a"
+  },
+  {
+    "path": "docs/architecture/README.md",
+    "sha256": "bd558aaf464020ab33b7ec682bf37eebb9e2c2db9239064c8c15930edf25b352"
+  },
+  {
+    "path": "docs/decisions/README.md",
+    "sha256": "7f4ff69b7429d74338aa818b20069b1f50a33ce6910a6a839ada06e4b2cadecb"
+  },
+  {
+    "path": "AGENTS.md",
+    "sha256": "b0f8389f6dd247c02e1e69c3725cec81d59848ecce8ef3479f696bd0f8457f6c"
+  },
+  {
+    "path": "project.config.json",
+    "sha256": "a28c7189bfc8e0791f3d6e8e5ebcd0874bb9399a1e1525f938ab81d310fa4340"
+  },
+  {
+    "path": "docs/product/automation-control-platform-prd.md",
+    "sha256": "bc44abd6605cb387b98a73a9475645cac68c9111eb605c7e7cf72232bcebbfca"
+  },
+  {
+    "path": "docs/standards/script-integration.md",
+    "sha256": "0f7746db2e8334af1e078870a6fff09e6b42bed60206ff16372411f5f8c881a2"
+  }
+]

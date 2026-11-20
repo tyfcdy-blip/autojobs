@@ -1,0 +1,48 @@
+# 本地配置与凭据；示例文件可以纳入版本管理
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# 系统、编辑器及本地缓存
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+
+# Node / Java / 构建输出；依赖锁文件不忽略
+node_modules/
+dist/
+build/
+target/
+.gradle/
+coverage/
+test-results/
+playwright-report/
+
+# 本地数据和运行产物
+/data/tmp/*
+!/data/tmp/.gitkeep
+/logs/*
+!/logs/.gitkeep
+*.log
+.project-config-*.tmp

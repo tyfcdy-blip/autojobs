@@ -1,0 +1,50 @@
+{
+  "scope": "静态前端浏览器验证；pywebview桥使用测试快照，不代表真实worker集成",
+  "engine": "Microsoft Edge / Playwright",
+  "results": [
+    {
+      "scenario": "empty",
+      "viewport": [
+        1120,
+        780
+      ],
+      "console_problems": [],
+      "horizontal_overflow": false,
+      "external_requests": [],
+      "screenshot": "empty.png"
+    },
+    {
+      "scenario": "running",
+      "viewport": [
+        1120,
+        780
+      ],
+      "console_problems": [],
+      "horizontal_overflow": false,
+      "external_requests": [],
+      "screenshot": "running.png"
+    },
+    {
+      "scenario": "reconciling",
+      "viewport": [
+        720,
+        560
+      ],
+      "console_problems": [],
+      "horizontal_overflow": false,
+      "external_requests": [],
+      "screenshot": "reconciling.png"
+    },
+    {
+      "scenario": "narrow",
+      "viewport": [
+        390,
+        844
+      ],
+      "console_problems": [],
+      "horizontal_overflow": false,
+      "external_requests": [],
+      "screenshot": "narrow.png"
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "MIT": [
+    {
+      "name": "@babel/helper-string-parser",
+      "versions": [
+        "7.29.14"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\@babel+helper-string-parser@7.29.14\\node_modules\\@babel\\helper-string-parser"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "description": "A utility package to parse strings"
+    },
+    {
+      "name": "@babel/helper-validator-identifier",
+      "versions": [
+        "7.29.7"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\@babel+helper-validator-identifier@7.29.7\\node_modules\\@babel\\helper-validator-identifier"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://github.com/babel/babel#readme",
+      "description": "Validate identifier/keywords name"
+    },
+    {
+      "name": "@babel/parser",
+      "versions": [
+        "7.29.14"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\@babel+parser@7.29.14\\node_modules\\@babel\\parser"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://babel.dev/docs/en/next/babel-parser",
+      "description": "A JavaScript parser"
+    },
+    {
+      "name": "@babel/types",
+      "versions": [
+        "7.29.14"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\@babel+types@7.29.14\\node_modules\\@babel\\types"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://babel.dev/docs/en/next/babel-types",
+      "description": "Babel Types is a Lodash-esque utility library for AST nodes"
+    },
+    {
+      "name": "@jridgewell/sourcemap-codec",
+      "versions": [
+        "1.6.0"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\@jridgewell+sourcemap-codec@1.6.0\\node_modules\\@jridgewell\\sourcemap-codec"
+      ],
+      "license": "MIT",
+      "author": "Justin Ridgewell",
+      "homepage": "https://github.com/jridgewell/sourcemaps/tree/main/packages/sourcemap-codec",
+      "description": "Encode/decode sourcemap mappings"
+    },
+    {
+      "name": "@vue/compiler-core",
+      "versions": [
+        "3.5.45"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\@vue+compiler-core@3.5.45\\node_modules\\@vue\\compiler-core"
+      ],
+      "license": "MIT",
+      "author": "Evan You",
+      "homepage": "https://github.com/vuejs/core/tree/main/packages/compiler-core#readme",
+      "description": "@vue/compiler-core"
+    },
+    {
+      "name": "@vue/compiler-dom",
+      "versions": [
+        "3.5.45"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\@vue+compiler-dom@3.5.45\\node_modules\\@vue\\compiler-dom"
+      ],
+      "license": "MIT",
+      "author": "Evan You",
+      "homepage": "https://github.com/vuejs/core/tree/main/packages/compiler-dom#readme",
+      "description": "@vue/compiler-dom"
+    },
+    {
+      "name": "@vue/compiler-sfc",
+      "versions": [
+        "3.5.45"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\@vue+compiler-sfc@3.5.45\\node_modules\\@vue\\compiler-sfc"
+      ],
+      "license": "MIT",
+      "author": "Evan You",
+      "homepage": "https://github.com/vuejs/core/tree/main/packages/compiler-sfc#readme",
+      "description": "@vue/compiler-sfc"
+    },
+    {
+      "name": "@vue/compiler-ssr",
+      "versions": [
+        "3.5.45"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\@vue+compiler-ssr@3.5.45\\node_modules\\@vue\\compiler-ssr"
+      ],
+      "license": "MIT",
+      "author": "Evan You",
+      "homepage": "https://github.com/vuejs/core/tree/main/packages/compiler-ssr#readme",
+      "description": "@vue/compiler-ssr"
+    },
+    {
+      "name": "@vue/reactivity",
+      "versions": [
+        "3.5.45"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\@vue+reactivity@3.5.45\\node_modules\\@vue\\reactivity"
+      ],
+      "license": "MIT",
+      "author": "Evan You",
+      "homepage": "https://github.com/vuejs/core/tree/main/packages/reactivity#readme",
+      "description": "@vue/reactivity"
+    },
+    {
+      "name": "@vue/runtime-core",
+      "versions": [
+        "3.5.45"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\@vue+runtime-core@3.5.45\\node_modules\\@vue\\runtime-core"
+      ],
+      "license": "MIT",
+      "author": "Evan You",
+      "homepage": "https://github.com/vuejs/core/tree/main/packages/runtime-core#readme",
+      "description": "@vue/runtime-core"
+    },
+    {
+      "name": "@vue/runtime-dom",
+      "versions": [
+        "3.5.45"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\@vue+runtime-dom@3.5.45\\node_modules\\@vue\\runtime-dom"
+      ],
+      "license": "MIT",
+      "author": "Evan You",
+      "homepage": "https://github.com/vuejs/core/tree/main/packages/runtime-dom#readme",
+      "description": "@vue/runtime-dom"
+    },
+    {
+      "name": "@vue/server-renderer",
+      "versions": [
+        "3.5.45"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\@vue+server-renderer@3.5.45\\node_modules\\@vue\\server-renderer"
+      ],
+      "license": "MIT",
+      "author": "Evan You",
+      "homepage": "https://github.com/vuejs/core/tree/main/packages/server-renderer#readme",
+      "description": "@vue/server-renderer"
+    },
+    {
+      "name": "@vue/shared",
+      "versions": [
+        "3.5.45"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\@vue+shared@3.5.45\\node_modules\\@vue\\shared"
+      ],
+      "license": "MIT",
+      "author": "Evan You",
+      "homepage": "https://github.com/vuejs/core/tree/main/packages/shared#readme",
+      "description": "internal utils shared across @vue packages"
+    },
+    {
+      "name": "csstype",
+      "versions": [
+        "3.2.4"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\csstype@3.2.4\\node_modules\\csstype"
+      ],
+      "license": "MIT",
+      "author": "Fredrik Nicol",
+      "homepage": "https://github.com/frenic/csstype#readme",
+      "description": "Strict TypeScript and Flow types for style based on MDN data"
+    },
+    {
+      "name": "estree-walker",
+      "versions": [
+        "2.0.2"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\estree-walker@2.0.2\\node_modules\\estree-walker"
+      ],
+      "license": "MIT",
+      "author": "Rich Harris",
+      "homepage": "https://github.com/Rich-Harris/estree-walker#readme",
+      "description": "Traverse an ESTree-compliant AST"
+    },
+    {
+      "name": "magic-string",
+      "versions": [
+        "0.30.21"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\magic-string@0.30.21\\node_modules\\magic-string"
+      ],
+      "license": "MIT",
+      "author": "Rich Harris",
+      "homepage": "https://github.com/Rich-Harris/magic-string#readme",
+      "description": "Modify strings, generate sourcemaps"
+    },
+    {
+      "name": "nanoid",
+      "versions": [
+        "3.3.20"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\nanoid@3.3.20\\node_modules\\nanoid"
+      ],
+      "license": "MIT",
+      "author": "Andrey Sitnik",
+      "homepage": "https://github.com/ai/nanoid#readme",
+      "description": "A tiny (116 bytes), secure URL-friendly unique string ID generator"
+    },
+    {
+      "name": "postcss",
+      "versions": [
+        "8.5.33"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\postcss@8.5.33\\node_modules\\postcss"
+      ],
+      "license": "MIT",
+      "author": "Andrey Sitnik",
+      "homepage": "https://postcss.org/",
+      "description": "Tool for transforming styles with JS plugins"
+    },
+    {
+      "name": "vue",
+      "versions": [
+        "3.5.45"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\vue@3.5.45_typescript@6.0.3\\node_modules\\vue"
+      ],
+      "license": "MIT",
+      "author": "Evan You",
+      "homepage": "https://vuejs.org/",
+      "description": "The progressive JavaScript framework for building modern web UI."
+    }
+  ],
+  "BSD-2-Clause": [
+    {
+      "name": "entities",
+      "versions": [
+        "7.0.1"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\entities@7.0.1\\node_modules\\entities"
+      ],
+      "license": "BSD-2-Clause",
+      "author": "Felix Boehm",
+      "homepage": "https://github.com/fb55/entities#readme",
+      "description": "Encode & decode XML and HTML entities with ease & speed"
+    }
+  ],
+  "ISC": [
+    {
+      "name": "picocolors",
+      "versions": [
+        "1.1.1"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\picocolors@1.1.1\\node_modules\\picocolors"
+      ],
+      "license": "ISC",
+      "author": "Alexey Raspopov",
+      "homepage": "https://github.com/alexeyraspopov/picocolors#readme",
+      "description": "The tiniest and the fastest library for terminal output formatting with ANSI colors"
+    }
+  ],
+  "BSD-3-Clause": [
+    {
+      "name": "source-map-js",
+      "versions": [
+        "1.2.2"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\source-map-js@1.2.2\\node_modules\\source-map-js"
+      ],
+      "license": "BSD-3-Clause",
+      "author": "Valentin 7rulnik Semirulnik",
+      "homepage": "https://github.com/7rulnik/source-map-js",
+      "description": "Generates and consumes source maps"
+    }
+  ],
+  "Apache-2.0": [
+    {
+      "name": "typescript",
+      "versions": [
+        "6.0.3"
+      ],
+      "paths": [
+        "D:\\codex\\autojobs\\apps\\agent\\desktop-ui\\node_modules\\.pnpm\\typescript@6.0.3\\node_modules\\typescript"
+      ],
+      "license": "Apache-2.0",
+      "author": "Microsoft Corp.",
+      "homepage": "https://www.typescriptlang.org/",
+      "description": "TypeScript is a language for application scale JavaScript development"
+    }
+  ]
+}

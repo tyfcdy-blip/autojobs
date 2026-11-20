@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-20",
+  "package": "dist\\autojobs-win10-validation-0.1.0-20261120.zip",
+  "size_bytes": 430087,
+  "sha256": "7cb478c511a5f5a4bcae70f92e633c8b1f12c784edff9ec9c8492eeb5778b5cf",
+  "files": {
+    "README.md": "4060a39aafda1fef47fd3eff81b376f2aad53021744f6faad492b6e47558adb1",
+    "现场记录.md": "a43a6e4da750f7b3d5d4714084b3e07dea124d9da7299ff95850a2e694c6bb9c",
+    "autojobs_agent-0.1.0-py3-none-any.whl": "44852a935173b5d45ad7ed15af98ac33ead843650365920adf18e31a9f3e84a8",
+    "autojobs_agent-0.1.0.tar.gz": "a5cb065dbd6afb26ae225c139235b617abe9ee85865e66f35d8bb9810b98c442",
+    "requirements-runtime.txt": "47b062b01725184e3a73a68e808fd1e299e1a4ab9a9e5ed0cb8ca784d77b13f2",
+    "examples/create_example.py": "8674998d4db0f5f25b82551d3995904248a969f841670a3102388f8175ef16e0",
+    "examples/table_summary.py": "f7536606e98a2159965d8c299d6426d2b702646f4de0a4ef7cdda24dcf245dfa"
+  },
+  "crc_and_member_hashes": "passed",
+  "tested_wheel_unchanged": true,
+  "source_lock_matches": true,
+  "smoke_directory": "data\\tmp\\win10-kit-smoke-20261120"
+}

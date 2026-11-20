@@ -1,0 +1,50 @@
+[build-system]
+requires = ["hatchling>=1.26,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "autojobs-agent"
+version = "0.1.0"
+description = "autojobs Windows 执行端基础与本地验证工具"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "pydantic>=2.10,<3",
+  "packaging>=24.2,<27",
+  "psutil>=6.1,<8",
+  "pywin32>=308; sys_platform == 'win32'",
+]
+
+[project.optional-dependencies]
+desktop = ["pywebview>=5.3,<7"]
+
+[dependency-groups]
+dev = ["pytest>=8.3,<10", "ruff>=0.9,<1", "mypy>=1.14,<2", "types-psutil>=6.1", "types-pywin32>=308"]
+
+[project.scripts]
+autojobs-agent = "autojobs_agent.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/autojobs_agent"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = ["windows: 使用真实 Windows 进程和命名互斥", "integration: 跨模块或真实进程集成验证"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "B", "UP"]
+
+[tool.mypy]
+python_version = "3.12"
+check_untyped_defs = true
+disallow_untyped_defs = true
+warn_unused_ignores = true
+files = ["src/autojobs_agent"]
+
+[[tool.mypy.overrides]]
+module = ["webview", "webview.*"]
+ignore_missing_imports = true

@@ -1,0 +1,50 @@
+[
+  {
+    "path": "AGENTS.md",
+    "before": "b0f8389f6dd247c02e1e69c3725cec81d59848ecce8ef3479f696bd0f8457f6c",
+    "after": "97d9843b7438f5e4b15132690444b74fe3233dc3bd37d54615352854359ccaf7",
+    "changed": true
+  },
+  {
+    "path": "project.config.json",
+    "before": "a28c7189bfc8e0791f3d6e8e5ebcd0874bb9399a1e1525f938ab81d310fa4340",
+    "after": "55348518ba66fc3a6e702d07ba2c405b3bd500c29eb6b3c78674c613ce75b941",
+    "changed": true
+  },
+  {
+    "path": "README.md",
+    "before": "c2590c7c2c6cd7d0a1cfee4c2cf5d7cf011a7cd228038eb97ca85428a60cbfd3",
+    "after": "5e2f01911e9f35eebb7895ba30dae9fbcf124373eecee61d0217e3ac052165f4",
+    "changed": true
+  },
+  {
+    "path": "docs/architecture/README.md",
+    "before": "0482276bc2583c01a8dd6c5509b27511a115f4d942116e70d405f66b23c9828e",
+    "after": "7f0842510ea37f7b3c636e01e54c59e2efe77135faba7d86671598c8dfb9a1ec",
+    "changed": true
+  },
+  {
+    "path": "docs/standards/script-integration.md",
+    "before": "0f7746db2e8334af1e078870a6fff09e6b42bed60206ff16372411f5f8c881a2",
+    "after": "ce6ec7e7fb077cede6e16578acd930690fa96ddea6ea18d7fa2be28958d35edc",
+    "changed": true
+  },
+  {
+    "path": "scripts/project_support.py",
+    "before": "0c792a49c0aed12050f48fb2bd16b40eaad66065b91e123708a82eba19c28bf2",
+    "after": "0c792a49c0aed12050f48fb2bd16b40eaad66065b91e123708a82eba19c28bf2",
+    "changed": false
+  },
+  {
+    "path": "scripts/check_project.py",
+    "before": "14c43d784c3950cd146cbf2d121ee9cb875f6fb15624220b2ce630bdbc771583",
+    "after": "14c43d784c3950cd146cbf2d121ee9cb875f6fb15624220b2ce630bdbc771583",
+    "changed": false
+  },
+  {
+    "path": "tests/unit/test_project_tools.py",
+    "before": "12ce74c522122d146e36fb81ccfa7bba086c7f911136b6d98722a3c3d620781c",
+    "after": "e44a68346219f0f5ccd179a06cff9067b8ec7a39464598defbfa9207ce269fea",
+    "changed": true
+  }
+]

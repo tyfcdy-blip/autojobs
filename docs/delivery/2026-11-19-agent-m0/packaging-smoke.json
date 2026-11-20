@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-19",
+  "scope": "独立虚拟环境安装wheel；真实读取合成CSV；无外部业务调用",
+  "wheel_sha256": "44852a935173b5d45ad7ed15af98ac33ead843650365920adf18e31a9f3e84a8",
+  "import_location": "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-smoke-20261119\\Lib\\site-packages\\autojobs_agent\\__init__.py",
+  "offline_assets": [
+    "autojobs_agent/desktop_assets/asset-manifest.json",
+    "autojobs_agent/desktop_assets/assets/index-DRtkfMNw.css",
+    "autojobs_agent/desktop_assets/assets/index-Dy02Hjso.js",
+    "autojobs_agent/desktop_assets/index.html"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-smoke-20261119\\Scripts\\python.exe",
+        "D:\\codex\\autojobs\\apps\\agent\\examples\\create_example.py",
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-example-20261119"
+      ],
+      "exit_code": 0,
+      "stdout": "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-example-20261119\\task.json\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-smoke-20261119\\Scripts\\autojobs-agent.exe",
+        "--state-dir",
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-state-20261119",
+        "check",
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-example-20261119\\task.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"ready\": true,\n  \"python\": {\n    \"executable\": \"D:\\\\codex\\\\autojobs\\\\data\\\\tmp\\\\agent-wheel-smoke-20261119\\\\Scripts\\\\python.exe\",\n    \"version\": \"3.12.7\",\n    \"architecture\": \"AMD64\",\n    \"prefix\": \"D:\\\\codex\\\\autojobs\\\\data\\\\tmp\\\\agent-wheel-smoke-20261119\",\n    \"base_prefix\": \"C:\\\\Users\\\\JIE\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\",\n    \"packages\": {},\n    \"markers\": {\n      \"implementation_name\": \"cpython\",\n      \"implementation_version\": \"3.12.7\",\n      \"os_name\": \"nt\",\n      \"platform_machine\": \"AMD64\",\n      \"platform_release\": \"11\",\n      \"platform_system\": \"Windows\",\n      \"platform_version\": \"10.0.26100\",\n      \"python_full_version\": \"3.12.7\",\n      \"platform_python_implementation\": \"CPython\",\n      \"python_version\": \"3.12\",\n      \"sys_platform\": \"win32\"\n    }\n  },\n  \"checks\": [\n    {\n      \"component\": \"entrypoint\",\n      \"ready\": true,\n      \"message\": \"任务入口存在。\"\n    },\n    {\n      \"component\": \"python\",\n      \"ready\": true,\n      \"message\": \"Python 3.12.7 (AMD64)\"\n    },\n    {\n      \"component\": \"file\",\n      \"ready\": true,\n      \"message\": \"固定文件存在：sample.csv\"\n    }\n  ],\n  \"installation_performed\": false,\n  \"unverified\": [\n    \"浏览器与驱动版本匹配\",\n    \"网站登录状态\",\n    \"锁屏/注销/远程桌面行为\"\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-smoke-20261119\\Scripts\\autojobs-agent.exe",
+        "--state-dir",
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-state-20261119",
+        "submit",
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-example-20261119\\task.json",
+        "--run-id",
+        "wheel-smoke-001"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"sequence\": 1,\n  \"run_id\": \"wheel-smoke-001\",\n  \"task_id\": \"local-table-example\",\n  \"queue_timeout\": 600.0,\n  \"state\": \"queued\",\n  \"stop_requested\": false,\n  \"pid\": null,\n  \"process_created_at\": null,\n  \"enqueued_at\": 1795084883.2167277,\n  \"deadline\": 1795085483.2167277,\n  \"started_at\": null,\n  \"finished_at\": null,\n  \"exit_code\": null,\n  \"error_code\": null,\n  \"message\": \"\",\n  \"request\": {\n    \"manifest\": {\n      \"browser_executable\": null,\n      \"entrypoint\": \"task.py\",\n      \"protocol_version\": \"0.1\",\n      \"python\": \"D:\\\\codex\\\\autojobs\\\\data\\\\tmp\\\\agent-wheel-smoke-20261119\\\\Scripts\\\\python.exe\",\n      \"queue_timeout_seconds\": 600.0,\n      \"required_files\": [\n        \"sample.csv\"\n      ],\n      \"requirements\": [],\n      \"stop_grace_seconds\": 2.0,\n      \"task_id\": \"local-table-example\",\n      \"timeout_seconds\": 60.0\n    },\n    \"run_id\": \"wheel-smoke-001\",\n    \"task_root\": \"D:\\\\codex\\\\autojobs\\\\data\\\\tmp\\\\agent-wheel-example-20261119\"\n  },\n  \"result\": null\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-smoke-20261119\\Scripts\\autojobs-agent.exe",
+        "--state-dir",
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-state-20261119",
+        "serve",
+        "--once"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-smoke-20261119\\Scripts\\autojobs-agent.exe",
+        "--state-dir",
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-state-20261119",
+        "show",
+        "wheel-smoke-001"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"sequence\": 1,\n  \"run_id\": \"wheel-smoke-001\",\n  \"task_id\": \"local-table-example\",\n  \"queue_timeout\": 600.0,\n  \"state\": \"succeeded\",\n  \"stop_requested\": false,\n  \"pid\": 32348,\n  \"process_created_at\": 1795084884.256,\n  \"enqueued_at\": 1795084883.2167277,\n  \"deadline\": 1795085483.2167277,\n  \"started_at\": 1795084884.256,\n  \"finished_at\": 1795084884.6203566,\n  \"exit_code\": 0,\n  \"error_code\": null,\n  \"message\": \"本地示例表格读取完成\",\n  \"request\": {\n    \"manifest\": {\n      \"browser_executable\": null,\n      \"entrypoint\": \"task.py\",\n      \"protocol_version\": \"0.1\",\n      \"python\": \"D:\\\\codex\\\\autojobs\\\\data\\\\tmp\\\\agent-wheel-smoke-20261119\\\\Scripts\\\\python.exe\",\n      \"queue_timeout_seconds\": 600.0,\n      \"required_files\": [\n        \"sample.csv\"\n      ],\n      \"requirements\": [],\n      \"stop_grace_seconds\": 2.0,\n      \"task_id\": \"local-table-example\",\n      \"timeout_seconds\": 60.0\n    },\n    \"run_id\": \"wheel-smoke-001\",\n    \"task_root\": \"D:\\\\codex\\\\autojobs\\\\data\\\\tmp\\\\agent-wheel-example-20261119\"\n  },\n  \"result\": {\n    \"error\": null,\n    \"message\": \"本地示例表格读取完成\",\n    \"protocol_version\": \"0.1\",\n    \"result\": {\n      \"processed_rows\": 2,\n      \"source\": \"sample.csv\"\n    },\n    \"run_id\": \"wheel-smoke-001\",\n    \"status\": \"success\"\n  }\n}\n",
+      "stderr": ""
+    }
+  ],
+  "result": "passed",
+  "initial_wheel_sha256": "96eba4b506ea82a202f4093086186ff1e13e62a49658d0a5c154e1bc9e1b77df",
+  "final_rebuilt_with_license_notices": true,
+  "final_commands": [
+    {
+      "argv": [
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-smoke-20261119\\Scripts\\python.exe",
+        "D:\\codex\\autojobs\\apps\\agent\\examples\\create_example.py",
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-example-final-20261119"
+      ],
+      "exit_code": 0,
+      "stdout": "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-example-final-20261119\\task.json\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-smoke-20261119\\Scripts\\autojobs-agent.exe",
+        "--state-dir",
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-state-final-20261119",
+        "check",
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-example-final-20261119\\task.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"ready\": true,\n  \"python\": {\n    \"executable\": \"D:\\\\codex\\\\autojobs\\\\data\\\\tmp\\\\agent-wheel-smoke-20261119\\\\Scripts\\\\python.exe\",\n    \"version\": \"3.12.7\",\n    \"architecture\": \"AMD64\",\n    \"prefix\": \"D:\\\\codex\\\\autojobs\\\\data\\\\tmp\\\\agent-wheel-smoke-20261119\",\n    \"base_prefix\": \"C:\\\\Users\\\\JIE\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\",\n    \"packages\": {},\n    \"markers\": {\n      \"implementation_name\": \"cpython\",\n      \"implementation_version\": \"3.12.7\",\n      \"os_name\": \"nt\",\n      \"platform_machine\": \"AMD64\",\n      \"platform_release\": \"11\",\n      \"platform_system\": \"Windows\",\n      \"platform_version\": \"10.0.26100\",\n      \"python_full_version\": \"3.12.7\",\n      \"platform_python_implementation\": \"CPython\",\n      \"python_version\": \"3.12\",\n      \"sys_platform\": \"win32\"\n    }\n  },\n  \"checks\": [\n    {\n      \"component\": \"entrypoint\",\n      \"ready\": true,\n      \"message\": \"任务入口存在。\"\n    },\n    {\n      \"component\": \"python\",\n      \"ready\": true,\n      \"message\": \"Python 3.12.7 (AMD64)\"\n    },\n    {\n      \"component\": \"file\",\n      \"ready\": true,\n      \"message\": \"固定文件存在：sample.csv\"\n    }\n  ],\n  \"installation_performed\": false,\n  \"unverified\": [\n    \"浏览器与驱动版本匹配\",\n    \"网站登录状态\",\n    \"锁屏/注销/远程桌面行为\"\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-smoke-20261119\\Scripts\\autojobs-agent.exe",
+        "--state-dir",
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-state-final-20261119",
+        "submit",
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-example-final-20261119\\task.json",
+        "--run-id",
+        "wheel-final-001"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"sequence\": 1,\n  \"run_id\": \"wheel-final-001\",\n  \"task_id\": \"local-table-example\",\n  \"queue_timeout\": 600.0,\n  \"state\": \"queued\",\n  \"stop_requested\": false,\n  \"pid\": null,\n  \"process_created_at\": null,\n  \"enqueued_at\": 1795085097.8677819,\n  \"deadline\": 1795085697.8677819,\n  \"started_at\": null,\n  \"finished_at\": null,\n  \"exit_code\": null,\n  \"error_code\": null,\n  \"message\": \"\",\n  \"request\": {\n    \"manifest\": {\n      \"browser_executable\": null,\n      \"entrypoint\": \"task.py\",\n      \"protocol_version\": \"0.1\",\n      \"python\": \"D:\\\\codex\\\\autojobs\\\\data\\\\tmp\\\\agent-wheel-smoke-20261119\\\\Scripts\\\\python.exe\",\n      \"queue_timeout_seconds\": 600.0,\n      \"required_files\": [\n        \"sample.csv\"\n      ],\n      \"requirements\": [],\n      \"stop_grace_seconds\": 2.0,\n      \"task_id\": \"local-table-example\",\n      \"timeout_seconds\": 60.0\n    },\n    \"run_id\": \"wheel-final-001\",\n    \"task_root\": \"D:\\\\codex\\\\autojobs\\\\data\\\\tmp\\\\agent-wheel-example-final-20261119\"\n  },\n  \"result\": null\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-smoke-20261119\\Scripts\\autojobs-agent.exe",
+        "--state-dir",
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-state-final-20261119",
+        "serve",
+        "--once"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-smoke-20261119\\Scripts\\autojobs-agent.exe",
+        "--state-dir",
+        "D:\\codex\\autojobs\\data\\tmp\\agent-wheel-state-final-20261119",
+        "show",
+        "wheel-final-001"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"sequence\": 1,\n  \"run_id\": \"wheel-final-001\",\n  \"task_id\": \"local-table-example\",\n  \"queue_timeout\": 600.0,\n  \"state\": \"succeeded\",\n  \"stop_requested\": false,\n  \"pid\": 9820,\n  \"process_created_at\": 1795085098.788,\n  \"enqueued_at\": 1795085097.8677819,\n  \"deadline\": 1795085697.8677819,\n  \"started_at\": 1795085098.788,\n  \"finished_at\": 1795085099.203643,\n  \"exit_code\": 0,\n  \"error_code\": null,\n  \"message\": \"本地示例表格读取完成\",\n  \"request\": {\n    \"manifest\": {\n      \"browser_executable\": null,\n      \"entrypoint\": \"task.py\",\n      \"protocol_version\": \"0.1\",\n      \"python\": \"D:\\\\codex\\\\autojobs\\\\data\\\\tmp\\\\agent-wheel-smoke-20261119\\\\Scripts\\\\python.exe\",\n      \"queue_timeout_seconds\": 600.0,\n      \"required_files\": [\n        \"sample.csv\"\n      ],\n      \"requirements\": [],\n      \"stop_grace_seconds\": 2.0,\n      \"task_id\": \"local-table-example\",\n      \"timeout_seconds\": 60.0\n    },\n    \"run_id\": \"wheel-final-001\",\n    \"task_root\": \"D:\\\\codex\\\\autojobs\\\\data\\\\tmp\\\\agent-wheel-example-final-20261119\"\n  },\n  \"result\": {\n    \"error\": null,\n    \"message\": \"本地示例表格读取完成\",\n    \"protocol_version\": \"0.1\",\n    \"result\": {\n      \"processed_rows\": 2,\n      \"source\": \"sample.csv\"\n    },\n    \"run_id\": \"wheel-final-001\",\n    \"status\": \"success\"\n  }\n}\n",
+      "stderr": ""
+    }
+  ]
+}

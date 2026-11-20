@@ -1,0 +1,186 @@
+{
+  "purpose": "Windows execution agent technology research; read-only GitHub repository metadata",
+  "document_date": "2026-11-19",
+  "collected_at_utc": "2026-11-19T09:38:44.744370+00:00",
+  "api_collection": {
+    "status": "failed",
+    "http_status": 403,
+    "reason": "rate limit exceeded",
+    "rate_limit_observation": {
+      "observed_http_date": "Thu, 19 Nov 2026 09:37:59 GMT",
+      "core_remaining": 0,
+      "core_reset_unix": 1795082811
+    },
+    "fallback": "Official github.com repository HTML; unknown API fields remain null"
+  },
+  "repositories": [
+    {
+      "repository": "r0x0r/pywebview",
+      "html_url": "https://github.com/r0x0r/pywebview",
+      "api_url": "https://api.github.com/repos/r0x0r/pywebview",
+      "metadata_source": "GitHub public repository HTML embedded JSON",
+      "stargazers_count": 6173,
+      "stars_extraction_pattern": "\"stargazerCount\":(\\d+)",
+      "archived": false,
+      "license_html_fragment": "{\"spdxId\":\"BSD-3-Clause\",\"name\":\"BSD 3-Clause \\\"New\\\" or \\\"Revised\\\" License\"}",
+      "pushed_at": null,
+      "pushed_at_status": "not verified: anonymous GitHub API core limit exhausted; public HTML is not API pushed_at",
+      "fetched_at_utc": "2026-11-19T09:38:40.813188+00:00",
+      "http_date": "Thu, 19 Nov 2026 09:38:01 GMT",
+      "http_status": 200,
+      "license_spdx_from_html": "BSD-3-Clause",
+      "license_review": {
+        "license_summary": "BSD-3-Clause",
+        "source": "https://github.com/r0x0r/pywebview",
+        "note": "Repository HTML license identification; actual locked release and transitive dependencies still require review."
+      }
+    },
+    {
+      "repository": "astral-sh/uv",
+      "html_url": "https://github.com/astral-sh/uv",
+      "api_url": "https://api.github.com/repos/astral-sh/uv",
+      "metadata_source": "GitHub public repository HTML embedded JSON",
+      "stargazers_count": 92360,
+      "stars_extraction_pattern": "\"stargazerCount\":(\\d+)",
+      "archived": false,
+      "license_html_fragment": "{\"spdxId\":\"Apache-2.0\",\"name\":\"Apache License 2.0\"}",
+      "pushed_at": null,
+      "pushed_at_status": "not verified: anonymous GitHub API core limit exhausted; public HTML is not API pushed_at",
+      "fetched_at_utc": "2026-11-19T09:38:41.634073+00:00",
+      "http_date": "Thu, 19 Nov 2026 09:38:39 GMT",
+      "http_status": 200,
+      "license_spdx_from_html": "Apache-2.0",
+      "license_review": {
+        "license_summary": "MIT OR Apache-2.0",
+        "source": "https://github.com/astral-sh/uv",
+        "note": "Repository provides LICENSE-MIT and LICENSE-APACHE; HTML single license fragment is incomplete."
+      }
+    },
+    {
+      "repository": "giampaolo/psutil",
+      "html_url": "https://github.com/giampaolo/psutil",
+      "api_url": "https://api.github.com/repos/giampaolo/psutil",
+      "metadata_source": "GitHub public repository HTML embedded JSON",
+      "stargazers_count": 11326,
+      "stars_extraction_pattern": "\"stargazerCount\":(\\d+)",
+      "archived": false,
+      "license_html_fragment": "{\"spdxId\":\"BSD-3-Clause\",\"name\":\"BSD 3-Clause \\\"New\\\" or \\\"Revised\\\" License\"}",
+      "pushed_at": null,
+      "pushed_at_status": "not verified: anonymous GitHub API core limit exhausted; public HTML is not API pushed_at",
+      "fetched_at_utc": "2026-11-19T09:38:41.840408+00:00",
+      "http_date": "Thu, 19 Nov 2026 09:38:40 GMT",
+      "http_status": 200,
+      "license_spdx_from_html": "BSD-3-Clause",
+      "license_review": {
+        "license_summary": "BSD-3-Clause",
+        "source": "https://github.com/giampaolo/psutil",
+        "note": "Repository HTML license identification; actual locked release and transitive dependencies still require review."
+      }
+    },
+    {
+      "repository": "mhammond/pywin32",
+      "html_url": "https://github.com/mhammond/pywin32",
+      "api_url": "https://api.github.com/repos/mhammond/pywin32",
+      "metadata_source": "GitHub public repository HTML embedded JSON",
+      "stargazers_count": 5638,
+      "stars_extraction_pattern": "\"stargazerCount\":(\\d+)",
+      "archived": false,
+      "license_html_fragment": null,
+      "pushed_at": null,
+      "pushed_at_status": "not verified: anonymous GitHub API core limit exhausted; public HTML is not API pushed_at",
+      "fetched_at_utc": "2026-11-19T09:38:41.107505+00:00",
+      "http_date": "Thu, 19 Nov 2026 09:38:39 GMT",
+      "http_status": 200,
+      "license_spdx_from_html": null,
+      "license_review": {
+        "license_summary": "Mixed licenses; inspect source and distribution license files",
+        "source": "https://github.com/mhammond/pywin32#licenses",
+        "note": "Official README explicitly identifies a mix of licenses; no single SPDX identifier asserted."
+      }
+    },
+    {
+      "repository": "microsoft/playwright-python",
+      "html_url": "https://github.com/microsoft/playwright-python",
+      "api_url": "https://api.github.com/repos/microsoft/playwright-python",
+      "metadata_source": "GitHub public repository HTML embedded JSON",
+      "stargazers_count": 15119,
+      "stars_extraction_pattern": "\"stargazerCount\":(\\d+)",
+      "archived": false,
+      "license_html_fragment": "{\"spdxId\":\"Apache-2.0\",\"name\":\"Apache License 2.0\"}",
+      "pushed_at": null,
+      "pushed_at_status": "not verified: anonymous GitHub API core limit exhausted; public HTML is not API pushed_at",
+      "fetched_at_utc": "2026-11-19T09:38:43.160534+00:00",
+      "http_date": "Thu, 19 Nov 2026 09:38:41 GMT",
+      "http_status": 200,
+      "license_spdx_from_html": "Apache-2.0",
+      "license_review": {
+        "license_summary": "Apache-2.0",
+        "source": "https://github.com/microsoft/playwright-python",
+        "note": "Repository HTML license identification; actual locked release and transitive dependencies still require review."
+      }
+    },
+    {
+      "repository": "SeleniumHQ/selenium",
+      "html_url": "https://github.com/SeleniumHQ/selenium",
+      "api_url": "https://api.github.com/repos/SeleniumHQ/selenium",
+      "metadata_source": "GitHub public repository HTML embedded JSON",
+      "stargazers_count": 34598,
+      "stars_extraction_pattern": "\"stargazerCount\":(\\d+)",
+      "archived": false,
+      "license_html_fragment": "{\"spdxId\":\"Apache-2.0\",\"name\":\"Apache License 2.0\"}",
+      "pushed_at": null,
+      "pushed_at_status": "not verified: anonymous GitHub API core limit exhausted; public HTML is not API pushed_at",
+      "fetched_at_utc": "2026-11-19T09:38:44.743376+00:00",
+      "http_date": "Thu, 19 Nov 2026 09:38:42 GMT",
+      "http_status": 200,
+      "license_spdx_from_html": "Apache-2.0",
+      "license_review": {
+        "license_summary": "Apache-2.0",
+        "source": "https://github.com/SeleniumHQ/selenium",
+        "note": "Repository HTML license identification; actual locked release and transitive dependencies still require review."
+      }
+    },
+    {
+      "repository": "tauri-apps/tauri",
+      "html_url": "https://github.com/tauri-apps/tauri",
+      "api_url": "https://api.github.com/repos/tauri-apps/tauri",
+      "metadata_source": "GitHub public repository HTML embedded JSON",
+      "stargazers_count": 112977,
+      "stars_extraction_pattern": "\"stargazerCount\":(\\d+)",
+      "archived": false,
+      "license_html_fragment": "{\"spdxId\":\"Apache-2.0\",\"name\":\"Apache License 2.0\"}",
+      "pushed_at": null,
+      "pushed_at_status": "not verified: anonymous GitHub API core limit exhausted; public HTML is not API pushed_at",
+      "fetched_at_utc": "2026-11-19T09:38:43.987754+00:00",
+      "http_date": "Thu, 19 Nov 2026 09:38:42 GMT",
+      "http_status": 200,
+      "license_spdx_from_html": "Apache-2.0",
+      "license_review": {
+        "license_summary": "MIT or MIT/Apache-2.0 where applicable; logo separate",
+        "source": "https://github.com/tauri-apps/tauri#licenses",
+        "note": "README states code licensing by component; logo CC-BY-NC-ND."
+      }
+    },
+    {
+      "repository": "moses-palmer/pystray",
+      "html_url": "https://github.com/moses-palmer/pystray",
+      "api_url": "https://api.github.com/repos/moses-palmer/pystray",
+      "metadata_source": "GitHub public repository HTML embedded JSON",
+      "stargazers_count": 575,
+      "stars_extraction_pattern": "\"stargazerCount\":(\\d+)",
+      "archived": false,
+      "license_html_fragment": "{\"spdxId\":\"LGPL-3.0\",\"name\":\"GNU Lesser General Public License v3.0\"}",
+      "pushed_at": null,
+      "pushed_at_status": "not verified: anonymous GitHub API core limit exhausted; public HTML is not API pushed_at",
+      "fetched_at_utc": "2026-11-19T09:38:43.858913+00:00",
+      "http_date": "Thu, 19 Nov 2026 09:38:42 GMT",
+      "http_status": 200,
+      "license_spdx_from_html": "LGPL-3.0",
+      "license_review": {
+        "license_summary": "LGPL-3.0",
+        "source": "https://github.com/moses-palmer/pystray",
+        "note": "Repository HTML license identification; actual locked release and transitive dependencies still require review."
+      }
+    }
+  ]
+}

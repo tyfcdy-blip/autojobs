@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-11-19T09:56:57.650182+00:00",
+  "python": "3.12.7",
+  "scope": "技术文档静态检查；不是产品功能测试",
+  "counts": {
+    "files": 16,
+    "local_links": 75,
+    "json_files": 4,
+    "json_examples": 1,
+    "repository_rows": 25,
+    "unchanged_inputs": 4
+  },
+  "errors": [],
+  "exit_code": 0
+}

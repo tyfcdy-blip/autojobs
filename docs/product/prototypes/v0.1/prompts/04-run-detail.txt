@@ -1,0 +1,24 @@
+Use case: ui-mockup. Generate ONE high-fidelity desktop web application screen for an enterprise automation script control console named "autojobs". This is a static PRD visual prototype, not a marketing page. Landscape 16:10 composition, preferably 1920x1200 or similarly high readable resolution. Full screenshot directly edge to edge; no laptop frame, no camera perspective, no decorative background. All user interface copy in crisp, legible Simplified Chinese, except product name, paths, Python versions and identifiers.
+Visual system: calm professional internal operations console. Very pale cool gray workspace #F5F7F8, white panels and white left navigation, thin neutral borders, restrained deep teal #167C73 primary buttons and active navigation, dark slate typography #24333B. Flat and precise, modest 8px corners, subtle shadows only where useful. Green with text for online/success, blue with text for running, amber with text for waiting/warning, red with text for errors. Clear Chinese sans-serif similar to Noto Sans SC, readable body text, strong but modest title hierarchy, orderly spacing. No gradients, glassmorphism, huge marketing headlines, cartoon art, 3D, or decorative graphs.
+Shared shell: a 205px left rail with small teal geometric icon, wordmark "autojobs" and caption "自动化控制中台". Menu items EXACTLY: "总览", "任务管理", "执行电脑", "运行记录", "通知中心", "系统设置"; appropriate thin line icons. Bottom user "自动化组" and "管理员". Thin white top bar with breadcrumb, muted label "原型 · 演示数据" and right date "2026-11-19". All counts, timestamps, task names, package versions and paths are illustrative prototype data, not actual execution records. No real URLs, IP addresses, credentials, personal names or secret values.
+Functional invariants: fixed computer per task, at most ONE running business task per computer. Distinguish computer connectivity (在线/失联) from occupancy (空闲/忙碌/待核实). No progress percentages. If shown, max runtime is "24 小时"; queue wait examples are explicitly example configuration, not product defaults. Success notifications OFF by default, failures reported through DingTalk. No unsupported automatic business retry, no parallel execution button, no per-run file-upload input. Only script-package upload is supported. Make all visible text coherent and correct; use a small number of meaningful rows rather than unreadable microtext.
+
+Page specification:
+Active menu "运行记录". Breadcrumb "运行记录 / 日报采集". Heading "日报采集" beside a red status badge "失败"; small run label "运行编号 DEMO-001". Upper right buttons "查看任务" and teal "立即运行". This is a historical failed run, not currently executing; no active stop button.
+A clean metadata strip in four columns: "执行电脑 PC-01", "触发方式 定时执行", "开始时间 08:00:00", "结束时间 08:02:18". Display "耗时 2分18秒" and "脚本版本 v1.2.0" nearby.
+Main content two columns ~65/35. Left top a pale red error box titled "浏览器登录状态失效", text "未完成本轮采集，请恢复登录后决定是否重新运行". Below tabs "返回结果" active, "执行日志", "过程步骤". Structured result viewer is a white/off-white readable monospaced JSON block with EXACT concise payload:
+{
+  "status": "failed",
+  "message": "浏览器登录状态失效",
+  "result": {
+    "failed_step": "访问数据页面"
+  },
+  "error": {
+    "code": "LOGIN_REQUIRED"
+  }
+}
+Label this block "业务返回值". Do not imply this shortened presentation is the complete frozen integration protocol.
+Right column panel title "钉钉通知", green small badge "已发送" distinct from the RED failed task state. Show "通知渠道 钉钉群机器人", "发送时间 08:02:20", "关联本次运行". Include a notification preview card titled "任务执行失败" with "任务：日报采集", "电脑：PC-01", "原因：浏览器登录状态失效", and link-style "查看运行记录". No webhook, actual URL or secret. Lower right muted note "成功通知：关闭". A bottom small operation record "本次未自动重跑". Entire composition makes script failure value, execution evidence and notification delivery independently visible.
+
+
+Reference image 1 is a STYLE REFERENCE ONLY: match its exact app shell, teal accent, white navigation, typography, icon weight, card treatment, and screenshot proportions. Generate the different page specified above, replacing the central content and active navigation appropriately. Keep the same logo design as reference. Do not reproduce the overview content on this new page.

@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-20",
+  "host": "Windows 11 开发机；不是 Windows 10 现场证据",
+  "commands": [
+    {
+      "argv": [
+        "D:\\codex\\autojobs\\data\\tmp\\win10-kit-smoke-20261120\\.venv\\Scripts\\python.exe",
+        "examples/create_example.py",
+        "sample-task"
+      ],
+      "cwd": "D:\\codex\\autojobs\\data\\tmp\\win10-kit-smoke-20261120",
+      "exit_code": 0,
+      "stdout": "D:\\codex\\autojobs\\data\\tmp\\win10-kit-smoke-20261120\\sample-task\\task.json\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\codex\\autojobs\\data\\tmp\\win10-kit-smoke-20261120\\.venv\\Scripts\\autojobs-agent.exe",
+        "--state-dir",
+        "state",
+        "check",
+        "sample-task/task.json"
+      ],
+      "cwd": "D:\\codex\\autojobs\\data\\tmp\\win10-kit-smoke-20261120",
+      "exit_code": 0,
+      "stdout": "{\n  \"ready\": true,\n  \"python\": {\n    \"executable\": \"D:\\\\codex\\\\autojobs\\\\data\\\\tmp\\\\win10-kit-smoke-20261120\\\\.venv\\\\Scripts\\\\python.exe\",\n    \"version\": \"3.12.7\",\n    \"architecture\": \"AMD64\",\n    \"prefix\": \"D:\\\\codex\\\\autojobs\\\\data\\\\tmp\\\\win10-kit-smoke-20261120\\\\.venv\",\n    \"base_prefix\": \"C:\\\\Users\\\\JIE\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\",\n    \"packages\": {},\n    \"markers\": {\n      \"implementation_name\": \"cpython\",\n      \"implementation_version\": \"3.12.7\",\n      \"os_name\": \"nt\",\n      \"platform_machine\": \"AMD64\",\n      \"platform_release\": \"11\",\n      \"platform_system\": \"Windows\",\n      \"platform_version\": \"10.0.26100\",\n      \"python_full_version\": \"3.12.7\",\n      \"platform_python_implementation\": \"CPython\",\n      \"python_version\": \"3.12\",\n      \"sys_platform\": \"win32\"\n    }\n  },\n  \"checks\": [\n    {\n      \"component\": \"entrypoint\",\n      \"ready\": true,\n      \"message\": \"任务入口存在。\"\n    },\n    {\n      \"component\": \"python\",\n      \"ready\": true,\n      \"message\": \"Python 3.12.7 (AMD64)\"\n    },\n    {\n      \"component\": \"file\",\n      \"ready\": true,\n      \"message\": \"固定文件存在：sample.csv\"\n    }\n  ],\n  \"installation_performed\": false,\n  \"unverified\": [\n    \"浏览器与驱动版本匹配\",\n    \"网站登录状态\",\n    \"锁屏/注销/远程桌面行为\"\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\codex\\autojobs\\data\\tmp\\win10-kit-smoke-20261120\\.venv\\Scripts\\autojobs-agent.exe",
+        "--state-dir",
+        "state",
+        "submit",
+        "sample-task/task.json",
+        "--run-id",
+        "field-sample-001"
+      ],
+      "cwd": "D:\\codex\\autojobs\\data\\tmp\\win10-kit-smoke-20261120",
+      "exit_code": 0,
+      "stdout": "{\n  \"sequence\": 1,\n  \"run_id\": \"field-sample-001\",\n  \"task_id\": \"local-table-example\",\n  \"queue_timeout\": 600.0,\n  \"state\": \"queued\",\n  \"stop_requested\": false,\n  \"pid\": null,\n  \"process_created_at\": null,\n  \"enqueued_at\": 1795136517.167961,\n  \"deadline\": 1795137117.167961,\n  \"started_at\": null,\n  \"finished_at\": null,\n  \"exit_code\": null,\n  \"error_code\": null,\n  \"message\": \"\",\n  \"request\": {\n    \"manifest\": {\n      \"browser_executable\": null,\n      \"entrypoint\": \"task.py\",\n      \"protocol_version\": \"0.1\",\n      \"python\": \"D:\\\\codex\\\\autojobs\\\\data\\\\tmp\\\\win10-kit-smoke-20261120\\\\.venv\\\\Scripts\\\\python.exe\",\n      \"queue_timeout_seconds\": 600.0,\n      \"required_files\": [\n        \"sample.csv\"\n      ],\n      \"requirements\": [],\n      \"stop_grace_seconds\": 2.0,\n      \"task_id\": \"local-table-example\",\n      \"timeout_seconds\": 60.0\n    },\n    \"run_id\": \"field-sample-001\",\n    \"task_root\": \"D:\\\\codex\\\\autojobs\\\\data\\\\tmp\\\\win10-kit-smoke-20261120\\\\sample-task\"\n  },\n  \"result\": null\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\codex\\autojobs\\data\\tmp\\win10-kit-smoke-20261120\\.venv\\Scripts\\autojobs-agent.exe",
+        "--state-dir",
+        "state",
+        "serve",
+        "--once"
+      ],
+      "cwd": "D:\\codex\\autojobs\\data\\tmp\\win10-kit-smoke-20261120",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\codex\\autojobs\\data\\tmp\\win10-kit-smoke-20261120\\.venv\\Scripts\\autojobs-agent.exe",
+        "--state-dir",
+        "state",
+        "show",
+        "field-sample-001"
+      ],
+      "cwd": "D:\\codex\\autojobs\\data\\tmp\\win10-kit-smoke-20261120",
+      "exit_code": 0,
+      "stdout": "{\n  \"sequence\": 1,\n  \"run_id\": \"field-sample-001\",\n  \"task_id\": \"local-table-example\",\n  \"queue_timeout\": 600.0,\n  \"state\": \"succeeded\",\n  \"stop_requested\": false,\n  \"pid\": 2436,\n  \"process_created_at\": 1795136518.144,\n  \"enqueued_at\": 1795136517.167961,\n  \"deadline\": 1795137117.167961,\n  \"started_at\": 1795136518.144,\n  \"finished_at\": 1795136518.4920278,\n  \"exit_code\": 0,\n  \"error_code\": null,\n  \"message\": \"本地示例表格读取完成\",\n  \"request\": {\n    \"manifest\": {\n      \"browser_executable\": null,\n      \"entrypoint\": \"task.py\",\n      \"protocol_version\": \"0.1\",\n      \"python\": \"D:\\\\codex\\\\autojobs\\\\data\\\\tmp\\\\win10-kit-smoke-20261120\\\\.venv\\\\Scripts\\\\python.exe\",\n      \"queue_timeout_seconds\": 600.0,\n      \"required_files\": [\n        \"sample.csv\"\n      ],\n      \"requirements\": [],\n      \"stop_grace_seconds\": 2.0,\n      \"task_id\": \"local-table-example\",\n      \"timeout_seconds\": 60.0\n    },\n    \"run_id\": \"field-sample-001\",\n    \"task_root\": \"D:\\\\codex\\\\autojobs\\\\data\\\\tmp\\\\win10-kit-smoke-20261120\\\\sample-task\"\n  },\n  \"result\": {\n    \"error\": null,\n    \"message\": \"本地示例表格读取完成\",\n    \"protocol_version\": \"0.1\",\n    \"result\": {\n      \"processed_rows\": 2,\n      \"source\": \"sample.csv\"\n    },\n    \"run_id\": \"field-sample-001\",\n    \"status\": \"success\"\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\codex\\autojobs\\data\\tmp\\win10-kit-smoke-20261120\\.venv\\Scripts\\python.exe",
+        "-m",
+        "tarfile",
+        "-e",
+        "autojobs_agent-0.1.0.tar.gz",
+        "source"
+      ],
+      "cwd": "D:\\codex\\autojobs\\data\\tmp\\win10-kit-smoke-20261120",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "C:\\Users\\JIE\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tarfile.py:2895: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.\n  tf.extractall(path=curdir, filter=args.filter)\n"
+    }
+  ],
+  "checks": {
+    "real_csv_rows": 2,
+    "state": "succeeded",
+    "source_extract": "passed"
+  },
+  "result": "passed"
+}
