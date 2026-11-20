@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-20",
+  "baseline_commit": "36472744c79698117d40504cc9527572446745f8",
+  "failure_reproduced": {
+    "PYTHONUTF8": "0",
+    "PYTHONIOENCODING": "cp1252",
+    "exit_code": 1,
+    "error": "UnicodeEncodeError"
+  },
+  "fixed_environment": {
+    "PYTHONUTF8": "1",
+    "PYTHONIOENCODING": "utf-8"
+  },
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\JIE\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "scripts/check_project.py"
+      ],
+      "exit_code": 0,
+      "stdout": "模板检查通过：38 个必要文件，13 个目录，配置格式有效。\n已登记业务验证类型：build、lint、typecheck、unit、integration\n本检查不执行业务命令，不代表构建、业务测试、CI 或发布审批通过。\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\JIE\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests/unit",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_check_passes_and_does_not_create_environment (test_project_tools.ProjectToolsTests.test_check_passes_and_does_not_create_environment) ... ok\ntest_check_reports_empty_file (test_project_tools.ProjectToolsTests.test_check_reports_empty_file) ... ok\ntest_check_reports_missing_directory (test_project_tools.ProjectToolsTests.test_check_reports_missing_directory) ... ok\ntest_check_reports_missing_file (test_project_tools.ProjectToolsTests.test_check_reports_missing_file) ... ok\ntest_config_symlink_is_rejected (test_project_tools.ProjectToolsTests.test_config_symlink_is_rejected) ... skipped '当前环境不支持创建符号链接：OSError'\ntest_dangling_environment_symlink_is_rejected (test_project_tools.ProjectToolsTests.test_dangling_environment_symlink_is_rejected) ... skipped '当前环境不支持创建符号链接：OSError'\ntest_default_arguments_keep_config_bytes_and_timestamp (test_project_tools.ProjectToolsTests.test_default_arguments_keep_config_bytes_and_timestamp) ... ok\ntest_description_boundaries (test_project_tools.ProjectToolsTests.test_description_boundaries) ... ok\ntest_environment_directory_is_preserved (test_project_tools.ProjectToolsTests.test_environment_directory_is_preserved) ... ok\ntest_environment_symlink_is_rejected (test_project_tools.ProjectToolsTests.test_environment_symlink_is_rejected) ... skipped '当前环境不支持创建符号链接：OSError'\ntest_failed_replace_preserves_existing_environment (test_project_tools.ProjectToolsTests.test_failed_replace_preserves_existing_environment) ... ok\ntest_failed_replace_rolls_back_new_environment (test_project_tools.ProjectToolsTests.test_failed_replace_rolls_back_new_environment) ... ok\ntest_foreign_working_directory_is_untouched (test_project_tools.ProjectToolsTests.test_foreign_working_directory_is_untouched) ... ok\ntest_fresh_initialization (test_project_tools.ProjectToolsTests.test_fresh_initialization) ... ok\ntest_initialization_keeps_stack_and_commands (test_project_tools.ProjectToolsTests.test_initialization_keeps_stack_and_commands) ... ok\ntest_invalid_configuration_types_are_rejected (test_project_tools.ProjectToolsTests.test_invalid_configuration_types_are_rejected) ... ok\ntest_invalid_json_is_not_echoed_or_modified (test_project_tools.ProjectToolsTests.test_invalid_json_is_not_echoed_or_modified) ... ok\ntest_invalid_names_fail_without_writes (test_project_tools.ProjectToolsTests.test_invalid_names_fail_without_writes) ... ok\ntest_invalid_utf8_fails_cleanly (test_project_tools.ProjectToolsTests.test_invalid_utf8_fails_cleanly) ... ok\ntest_legacy_powershell_is_rejected_before_writes (test_project_tools.ProjectToolsTests.test_legacy_powershell_is_rejected_before_writes) ... ok\ntest_missing_example_prevents_metadata_update (test_project_tools.ProjectToolsTests.test_missing_example_prevents_metadata_update) ... ok\ntest_name_length_boundaries (test_project_tools.ProjectToolsTests.test_name_length_boundaries) ... ok\ntest_powershell_wrapper_forwards_arguments_and_failure (test_project_tools.ProjectToolsTests.test_powershell_wrapper_forwards_arguments_and_failure) ... ok\ntest_registered_commands_are_never_executed (test_project_tools.ProjectToolsTests.test_registered_commands_are_never_executed) ... ok\ntest_repeat_preserves_existing_environment (test_project_tools.ProjectToolsTests.test_repeat_preserves_existing_environment) ... ok\ntest_unpaired_unicode_surrogates_fail_before_writes (test_project_tools.ProjectToolsTests.test_unpaired_unicode_surrogates_fail_before_writes) ... ok\ntest_utf8_bom_is_accepted (test_project_tools.ProjectToolsTests.test_utf8_bom_is_accepted) ... ok\n\n----------------------------------------------------------------------\nRan 27 tests in 8.769s\n\nOK (skipped=3)\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\JIE\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-m",
+        "compileall",
+        "-q",
+        "scripts",
+        "tests"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

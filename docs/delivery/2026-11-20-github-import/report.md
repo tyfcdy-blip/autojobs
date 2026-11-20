@@ -1,6 +1,6 @@
-# 当前项目导入 GitHub：提交前记录
+# 当前项目导入 GitHub 与 CI 修复记录
 
-日期：2026-11-20，Asia/Shanghai。模式：开发后自检。等级：L1，整理版本控制与首次项目导入，不修改业务实现。用户明确要求初始化当前项目并上传到 `https://github.com/tyfcdy-blip/autojobs`，本轮 commit/push 已获授权，不再次请求确认。
+日期：2026-11-20，Asia/Shanghai。模式：修复与复验（首次上传后发现 CI 编码问题）。等级：L1，整理版本控制、首次项目导入与 CI 环境修复，不修改业务实现。用户明确要求初始化当前项目并上传到 `https://github.com/tyfcdy-blip/autojobs`，本轮 commit/push 已获授权，不再次请求确认。
 
 ## 基准与范围
 
@@ -35,3 +35,15 @@
 当前没有业务构建或数据迁移改动，相关专项门禁不适用。没有生产发布、数据库连接或实际执行机操作。上传源代码不等于允许生产部署，两台 Windows 10 现场门禁仍未完成。
 
 本地检查通过，远程推送与 CI 需要分别核实。Codex 自检通过不等于开发自测确认、人工代码评审、CI 验证或发布审批通过。
+
+## 首次推送与 CI 修复
+
+首次提交 `36472744c79698117d40504cc9527572446745f8` 已正常推送到 `origin/main`，153 个文件；`git ls-remote` 与本地 HEAD 完全一致，工作区干净，原初始提交仍为父历史。上述“提交前”段落保留当时证据。
+
+[首轮 GitHub Actions](https://github.com/tyfcdy-blip/autojobs/actions/runs/44653080943) 总体失败。读取实际日志定位到两个 Windows 任务的 `Check template`：Python stdout 为 cp1252，中文提示触发 `UnicodeEncodeError`；Ubuntu 的相同步骤通过。这是输出编码问题，不能删除 Windows 测试或降低模板检查。
+
+缺陷 Git-CI-01，P2：仅在 `.github/workflows/template-check.yml` 设置 `PYTHONUTF8=1` 和 `PYTHONIOENCODING=utf-8`，不改系统环境、权限、矩阵、检查脚本或测试断言。
+
+本地以 `PYTHONUTF8=0 / PYTHONIOENCODING=cp1252` 重现同一错误，退出 1；切换到工作流声明的 UTF-8 后，`python scripts/check_project.py`、`python -m unittest discover -s tests/unit -v`、`python -m compileall -q scripts tests` 均退出 0。模板测试 27 项，24 通过、3 原有权限跳过，用时 8.769 秒。完整命令和实际输出见 [编码复验证据](ci-encoding-verification.json)。
+
+该修复按单独追加提交推送，不重写首次提交。此修复记录保存于再次推送前，远程 CI 最终状态需以新提交对应的 Actions 运行及最终交付回复核实；不会用本地通过替代远程结果。

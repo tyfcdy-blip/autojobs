@@ -8,6 +8,11 @@ on:
 permissions:
   contents: read
 
+env:
+  # Windows 托管环境可能采用 cp1252；中文检查输出统一使用 UTF-8。
+  PYTHONUTF8: '1'
+  PYTHONIOENCODING: utf-8
+
 jobs:
   template:
     strategy:
